@@ -6,5 +6,3 @@ WORKDIR /opt/spring-framework-petclinic
 RUN mvn clean package
 WORKDIR /opt/spring-framework-petclinic/target
 EXPOSE 8080
-CMD chmod +x /opt/tomcat/bin/catalina.sh
-CMD /opt/tomcat/bin/catalina.sh run
